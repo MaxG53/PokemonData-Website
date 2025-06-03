@@ -15,7 +15,7 @@ function generateCards(pokemonList){
   let cardPanel = document.getElementById("cardPanel");
   let build = ``;
 
-  for(let i=0; i < pokemonList[i]; i++){
+  for(let i = 0; i < pokemonList.length; i++){
     let pokemon = pokemonList[i];
     let paddedId = String(pokemon.NameId).padStart(3, '0');
     
@@ -36,7 +36,6 @@ function generateCards(pokemonList){
   }
 
   cardPanel.innerHTML = build;
-
 }
 
 // function generateCards(pokemonList){

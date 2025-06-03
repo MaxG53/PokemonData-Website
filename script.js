@@ -5,8 +5,10 @@ function init(){
   let link = "https://maxg53.github.io/PokemonData-Website/";
   let route= "/pokemon"
   pokemons = $.getJSON(link+route).responseJSON;
-  
-  generateCards(pokemons)
+  console.log(pokemons);
+
+  generateCards(pokemons);
+
 
 
 }

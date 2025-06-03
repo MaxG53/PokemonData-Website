@@ -1,0 +1,188 @@
+.row{
+  width: 100%;
+}
+
+html, header, main, footer{
+    background: rgb(16, 18, 32);
+}
+
+html{
+    height: 100%;
+}
+
+header{
+    padding: 2vw;
+}
+
+header div{
+    text-align: center;
+    color: rgb(240, 240, 240);
+
+    h1{
+        font-size: 5vw;
+    }
+
+    h3{
+        font-size: 2vw;
+    }
+}
+
+main{
+    padding-bottom: 3vw;
+}
+
+
+#card{
+    width: 20vw;
+    /* height: 30vw; */
+    padding: 0.5vw;
+    margin: 1.25vw;
+    border: 2px solid #4d739e;
+    border-radius: 15px;
+    background-image: linear-gradient(rgba(16, 18, 32,0),rgba(16, 18, 32, 0.25), rgba(39, 63, 89,0.65));
+    box-shadow: 1px 1px 10px 2px #55789f;
+
+    :hover{
+        cursor: pointer;
+    }
+}
+
+.pokeball-bg{
+    z-index:1;
+    position: absolute;
+    display: inline; 
+    margin-top: 0.75vw;
+    opacity: 0.5;
+    width: 16vw;
+}
+
+.top-card #photoId{
+    z-index: 2;
+    margin-top: 2vw;
+    width: 12.5vw;
+}
+
+#card > .bottom-card{
+    padding-top: 3vw;
+    margin-left: 0.75vw;
+    padding-bottom: 1vw;
+    color: rgb(240,240,240);
+    
+    #NameId{
+        font-size: 1.5vw;
+        color: #b4ebff;
+    }
+
+    #Name{
+        font-size: 2.5vw;
+    }
+
+    .type{
+        width: 100%;
+        font-size: 1.5vw;
+        padding-top: 2.25vw;
+        color: rgb(240, 240, 240);
+        text-align: center;
+    }
+        
+
+    .type > #Type1{
+       border: 1px solid rgb(240, 240, 240);
+       padding: 0.15vw 1.25vw 0.15vw 1.25vw;
+       border-radius: 2vw; 
+       margin: 0.25vw;
+    }
+
+    .type > #Type2{
+       border: 1px solid rgb(240, 240, 240);
+       padding: 0.15vw 1.25vw 0.15vw 1.25vw;
+       border-radius: 2vw; 
+       margin: 0.25vw;
+    }
+}   
+
+
+footer{
+    font-size: 1.5vw;
+    color: rgb(240, 240, 240);
+    background: rgb(28, 32, 58);
+
+    div{
+        margin-right: 0;
+        margin-bottom: 1vw;
+        margin-left: 5vw;
+    }
+
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f8f8f8;
+}
+
+#header {
+  background-color: #e53935;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+#nav {
+  background-color: #424242;
+  text-align: center;
+  padding: 10px;
+}
+#nav h2{
+    color: white;
+    margin: 0;
+}
+
+#nav .button {
+  color: white;
+  background-color: #616161;
+  padding: 10px 20px;
+  margin: 5px;
+  display: inline-block;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+#nav .button:hover {
+  background-color: #757575;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.panel, #centerpanel {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  width: 300px;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+#centerpanel {
+  background-color: #fff9c4;
+  border: 2px solid #fdd835;
+}
+
+footer {
+  background-color: #212121;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+footer a {
+  color: #ffca28;
+  text-decoration: none;
+}
+
+

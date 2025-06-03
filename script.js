@@ -2,7 +2,7 @@ let data,pokemons;
 function init(){
   $.ajaxSetup({async: false});
   
-  let link = "https://cautious-space-adventure-q74799prrppqhxwjg-5500.app.github.dev/";
+  let link = "https://maxg53.github.io/PokemonData-Website/";
   let route= "/pokemon"
   pokemons = $.getJSON(link+route).responseJSON;
   
@@ -15,7 +15,7 @@ function generateCards(pokemonList){
   let cardPanel = document.getElementById("cardPanel");
   let build = ``;
 
-  for(let i = 0; i < pokemonList.length; i++){
+  for(let i = 0; i < pokemonList[i]; i++){
     let pokemon = pokemonList[i];
     let paddedId = String(pokemon.NameId).padStart(3, '0');
     

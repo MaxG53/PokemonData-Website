@@ -2,7 +2,7 @@ let data,pokemons;
 function init(){
   $.ajaxSetup({async: false});
   
-  let link = "https://maxg53.github.io/PokemonData-Website/";
+  let link = "https://cautious-space-adventure-q74799prrppqhxwjg-5500.app.github.dev";
   let route= "/pokemon"
   pokemons = $.getJSON(link+route).responseJSON;
   console.log(pokemons);
